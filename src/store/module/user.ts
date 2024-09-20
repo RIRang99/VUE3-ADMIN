@@ -6,7 +6,8 @@ export const useUserStore = defineStore({
     return {
       name: "张三" as string | null,
       age: 18,
-      gender: "男"
+      gender: "男",
+      token: null
     };
   },
   getters: {
