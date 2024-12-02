@@ -1,11 +1,7 @@
-<script setup lang="ts">
-import Cropper from "@/components/cropper/index.vue";
-</script>
+<script setup lang="ts"></script>
 
 <template>
-  <div>
-    <Cropper :multiple="false"></Cropper>
-  </div>
+  <router-view></router-view>
 </template>
 
 <style scoped></style>
